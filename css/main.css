@@ -202,6 +202,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 header nav ul li {
@@ -381,7 +382,7 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
-.faq .content-wrapper{
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -545,10 +546,10 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 25%;
   }
 
-  header nav ul{
+  header nav ul {
     justify-content: space-between;
   }
 
@@ -744,7 +745,7 @@ input[type=button] {
     width: 30%;
   }
 
-  .form-description {
+  .form-description p {
     font-size: 1.125em;
   }
 
@@ -790,6 +791,7 @@ input[type=button] {
   width: 100%;
   font-size: 3em;
   }
+
   .faq h4,
   .faq p {
     font-size: 1.125em;
