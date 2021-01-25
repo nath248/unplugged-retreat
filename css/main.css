@@ -129,11 +129,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -159,6 +159,14 @@ footer {
 
 header {
   padding: 15px 0:
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
@@ -200,6 +208,9 @@ header nav ul li {
 /* ------------ Main Homepage Styles -------------*/
 
 .hero-area {
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -225,6 +236,8 @@ aside .form {
 }
 
 .features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -484,6 +497,10 @@ input[type=button] {
     padding: 33px 0;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
@@ -598,6 +615,10 @@ input[type=button] {
 
   .content-wrapper {
     max-width: 960px;
+  }
+
+  header figure {
+    width: 25%;
   }
 
   .hero-area h1 {
